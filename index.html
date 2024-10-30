@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeStudio</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.4.0/fonts/remixicon.min.css">
+    <link rel="stylesheet" href="src/swiper-bundle.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="bg-gray-100">
+    <!-- Header -->
+    <header class="sticky top-0 h-[90px] shadow-xl z-30 bg-white">
+        <div class="container flex items-center justify-between h-full mx-auto">
+            <!-- Logo -->
+            <a href="#">
+                <img src="/asset/img/logo2.svg" alt="" class="w-[125px] lg:w-[120px]">
+            </a>
+            <!-- Nav -->
+            <nav>
+                <!-- Nav mobile trigger -->
+                <div class="cursor-pointer lg:hidden" id="nav_trigger_btn">
+                    <i class="text-3xl ri-menu-3-line text-primary"></i>
+                </div>
+                <ul class="fixed w-full h-0 p-0 bg-white overflow-hidden border-t top-[90px] left-0 right-0 flex flex-col gap-4 lg:relative lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300 "
+                    id="nav_menu">
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+                    <li>
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a href="">Our Work</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Page Wrapper -->
+    <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
+        <div
+            class="xl:bg-[url('/asset/img/grid.png')] xl:bg-center xl:bg-repeat-y fixed top-0 bottom-0 left-0 right-0 z-10">
+        </div>
+        <!-- Hero -->
+        <section
+        class="h-[640px] xl:h-[840px] relative z-20 overflow-hidden">
+        <div class="absolute inset-0 bg-[url('/asset/img/bg-utama.svg')] bg-cover bg-no-repeat bg-fixed brightness-50 xl:rounded-bl-[290px]"></div>
+        <div class="container relative z-10 flex items-center justify-center h-full mx-auto xl:justify-start">
+            <div class="w-[567px] flex flex-col items-center text-center xl:text-left lg:items-start">
+                <h1 class="text-accent text-[64px] mb-8">Let Your Interior Be Unique</h1>
+                <p class="mb-8 text-white drop-shadow-xl">Design spaces that reflect your unique style with custom interiors, blending elegance and functionality to make every room truly your own.</p>
+                <a href="https://www.instagram.com/hestudio.design/" target="_blank">
+                    <button class="mx-auto btn btn-primary xl:mx-0 ">Create Your Design Now! <i class="ri-arrow-right-line text-accent"></i></button>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+        <!-- Steeps -->
+        <section class="steps mt-[80px] relative z-20 xl:mt-[200px]">
+            <div class="container mx-auto">
+                <div class="grid grid-cols-1 gap-12 xl:grid-cols-3">
+                    <div class="text-center steps__step">
+                        <div class="mb-4">
+                            <i class="text-5xl ri-compasses-2-line"></i>
+                        </div>
+                        <h3 class="mb-5 text-[25px]">Project Planning</h3>
+                        <p class="max-w-md mx-auto mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Assumenda corrupti, voluptates ducimus repudiandae tempore dolorem!</p>
+                        <a href="" class="flex justify-center gap-2 font-medium">Read More <i
+                                class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="text-center steps__step">
+                        <div class="mb-4">
+                            <i class="text-5xl ri-magic-line"></i>
+                        </div>
+                        <h3 class="mb-5 text-[25px]">Gaining Material</h3>
+                        <p class="max-w-md mx-auto mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Assumenda corrupti, voluptates ducimus repudiandae tempore dolorem!</p>
+                        <a href="" class="flex justify-center gap-2 font-medium">Read More <i
+                                class="ri-arrow-right-line"></i></a>
+                    </div>
+                    <div class="text-center steps__step">
+                        <div class="mb-4">
+                            <i class="text-5xl ri-tools-line"></i>
+                        </div>
+                        <h3 class="mb-5 text-[25px]">Project Execution</h3>
+                        <p class="max-w-md mx-auto mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Assumenda corrupti, voluptates ducimus repudiandae tempore dolorem!</p>
+                        <a href="" class="flex justify-center gap-2 font-medium">Read More <i
+                                class="ri-arrow-right-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About -->
+        <section class="about mt-[80px] xl:mt-[200px] relative z-20">
+            <div class="container mx-auto xl:px-0">
+                <div
+                    class="flex flex-col items-center justify-between gap-8 text-center xl:text-left xl:flex-row xl:gap-[74px]">
+                    <!-- Text -->
+                    <div
+                        class="flex flex-1 order-2 max-w-xl xl:order-none xl:max-w-[410px] flex flex-col items-center xl:items-start gap-8">
+                        <h2 class="leading-tight text-[50px]">We Create Art Of Modern Design</h2>
+                        <p>Experience the art of modern design with interiors that blend sophistication and innovation,
+                            creating spaces that inspire and captivate.</p>
+                        <!-- phone -->
+                        <div class="flex items-center justify-center gap-4 xl:justify-start">
+                            <div class="bg-accent/15 w-[93px] h-[93px] items-center justify-center flex rounded-full"><i
+                                    class="text-4xl ri-phone-fill text-accent"></i>
+                            </div>
+                            <div class="text-left">
+                                <div class="text-2xl font-bold">+6285857325934</div>
+                                <div>Call Us Anytime</div>
+                            </div>
+                        </div>
+                        <!-- button -->
+                        <button class="btn-primary btn">Get Free Estimations<i
+                                class="ri-arrow-right-line text-accent"></i></button>
+                    </div>
+                    <!-- Img -->
+                    <div
+                        class="about__img order-1 xl:order-none max-w-[453px] overflow-hidden mx-auto xl:max-w-none xl:mx-0 xl:w-[653px]">
+                        <img src="/asset/img/gambar10.png" class="rounded-tr-[160px] rounded-bl-[80px]" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- Testimonial -->
+        <section class="testimonial mt-[80px] xl:mt-[200px] relative z-20">
+            <div class="container mx-auto testimonial__bg bg-accent-secondary rounded-[70px] px-6">
+                <div class="flex flex-col items-center pt-[88px] pb-[110px]">
+                    <h2 class="text-[50px] leading-tight mb-9 text-center testimonial__title">What client say</h2>
+                    <!-- Slider -->
+                    <div class="w-full">
+                        <div class="testimonial__slider swiper h-[400px]">
+                            <div class="swiper-wrapper">
+                                <!-- Slide 1-->
+                                <div class="swiper-slide">
+                                    <!-- items -->
+                                    <div
+                                        class="w-full testimonial__item max-w-[450px] h-[340px] bg-white rounded-[30px] flex flex-col justify-center p-9 mx-auto ">
+                                        <div class="flex gap-4 mb-6">
+                                            <img src="/asset/img/testimonial/01.png" alt="">
+                                            <div>
+                                                <h3 class="text-[25px]">Natasha Mith</h3>
+                                                <div>Greenvile, USA</div>
+                                            </div>
+                                        </div>
+
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse necessitatibus
+                                            totam
+                                            quisquam laborum, quis explicabo?</p>
+                                    </div>
+
+                                </div>
+                                <!-- Slide 2 -->
+                                <div class="swiper-slide">
+                                    <!-- items -->
+                                    <div
+                                        class="w-full testimonial__item max-w-[450px] h-[340px] bg-white rounded-[30px] flex flex-col justify-center p-9 mx-auto ">
+                                        <div class="flex gap-4 mb-6">
+                                            <img src="/asset/img/testimonial/01.png" alt="">
+                                            <div>
+                                                <h3 class="text-[25px]">Natasha Mith</h3>
+                                                <div>Greenvile, USA</div>
+                                            </div>
+                                        </div>
+
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse necessitatibus
+                                            totam
+                                            quisquam laborum, quis explicabo?</p>
+                                    </div>
+
+                                </div>
+                                <!-- SLide 3 -->
+                                <div class="swiper-slide">
+                                    <!-- items -->
+                                    <div
+                                        class="w-full testimonial__item max-w-[450px] h-[340px] bg-white rounded-[30px] flex flex-col justify-center p-9 mx-auto ">
+                                        <div class="flex gap-4 mb-6">
+                                            <img src="/asset/img/testimonial/01.png" alt="">
+                                            <div>
+                                                <h3 class="text-[25px]">Natasha Mith</h3>
+                                                <div>Greenvile, USA</div>
+                                            </div>
+                                        </div>
+
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse necessitatibus
+                                            totam
+                                            quisquam laborum, quis explicabo?</p>
+                                    </div>
+
+                                </div>
+                                <!-- Slide 4 -->
+                                <div class="swiper-slide">
+
+                                    <!-- items -->
+                                    <div
+                                        class="w-full testimonial__item max-w-[450px] h-[340px] bg-white rounded-[30px] flex flex-col justify-center p-9 mx-auto ">
+                                        <div class="flex gap-4 mb-6">
+                                            <img src="/asset/img/testimonial/01.png" alt="">
+                                            <div>
+                                                <h3 class="text-[25px]">Natasha Mith</h3>
+                                                <div>Greenvile, USA</div>
+                                            </div>
+                                        </div>
+
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse necessitatibus
+                                            totam
+                                            quisquam laborum, quis explicabo?</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <!-- Swipper Pagination -->
+                            <div class="swiper-pagination"></div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Brands -->
+        <section class="brands mt-[80px] xl:mt-[150px] relative z-20">
+            <div class="container mx-auto">
+                <div class="flex flex-col items-center justify-between gap-12 xl:flex-row">
+                    <img class="w-[130px] brands__img" src="/asset/img/logo-isi.svg">
+                    <img class="w-[130px] brands__img" src="/asset/img/sika-logo.svg">
+                    <img class="w-[130px] brands__img" src="/asset/img/logo-pasirku.svg">
+                    <img class="w-[130px] brands__img" src="/asset/img/logo.svg">
+
+                </div>
+            </div>
+        </section>
+        <!-- Work -->
+        <section class="work mt-[80px] xl:mt-[150px] relative z-20">
+            <div class="container mx-auto xl:px-0">
+                <!-- text -->
+                <div class="mb-24 text-center">
+                    <h2 class="text-[50px] leading-tight work__titlen mb-4">Follow Our Projects</h2>
+                    <p class="max-w-3xl mx-auto work__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Quas nostrum doloremque dicta corrupti dolor quos.</p>
+                </div>
+                <!-- Grid -->
+                <div class="grid grid-cols-1 work__grid xl:grid-cols-2 gap-x-[104px] gap-y-[56px]">
+                    <!-- items -->
+                    <div class="w-full max-w-[548px h-full mx-auto]">
+                        <img src="/asset/img/project/1.svg" alt="" class="rounded-br-[80px] mb-6">
+                        <div class="flex items-center justify-between w-full">
+                            <div>
+                                <h3 class="text-[25px] leading-tight">Butik Interior</h3>
+                                <p>Interior | Architectur</p>
+                            </div>
+                            <a href="https://www.instagram.com/hestudio.design/" target="_blank">
+                                <button class="bg-accent-secondary w-[70px] h-[70px] rounded-full hover:bg-accent/20">
+                                    <i class="pl-1 text-3xl ri-arrow-right-s-line text-primary"></i>
+                                </button>
+                            </a>
+
+                        </div>
+                    </div>
+                    <!-- items -->
+                    <div class="w-full max-w-[548px h-full mx-auto]">
+                        <img src="/asset/img/project/2.svg" alt=""
+                            class="rounded-tl-[80px] mb-6 xl:rounded-bl-[80px] xl:rounded-tl-[0px]">
+                        <div class="flex items-center justify-between w-full">
+                            <div>
+                                <h3 class="text-[25px] leading-tight">HeStudio Chair</h3>
+                                <p>Decor | Architectur</p>
+                            </div>
+                            <a href="https://www.instagram.com/hestudio.design/" target="_blank">
+                                <button class="bg-accent-secondary w-[70px] h-[70px] rounded-full hover:bg-accent/20">
+                                    <i class="pl-1 text-3xl ri-arrow-right-s-line text-primary"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- items -->
+                    <div class="w-full max-w-[548px h-full mx-auto]">
+                        <img src="/asset/img/project/3.svg" alt=""
+                            class="rounded-br-[80px] xl:rounded-tr-[80px] xl:rounded-br-[0px] mb-6">
+                        <div class="flex items-center justify-between w-full">
+                            <div>
+                                <h3 class="text-[25px] leading-tight">Kopi Pasirku Design</h3>
+                                <p>Interior | Architectur</p>
+                            </div>
+                            <a href="https://www.instagram.com/hestudio.design/" target="_blank">
+                                <button class="bg-accent-secondary w-[70px] h-[70px] rounded-full hover:bg-accent/20">
+                                    <i class="pl-1 text-3xl ri-arrow-right-s-line text-primary"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- items -->
+                    <div class="w-full max-w-[548px h-full mx-auto]">
+                        <img src="/asset/img/project/4.svg" alt="" class="rounded-tl-[80px] mb-6">
+                        <div class="flex items-center justify-between w-full">
+                            <div>
+                                <h3 class="text-[25px] leading-tight">Interior Sketch</h3>
+                                <p>Interior | Sketch</p>
+                            </div>
+                            <a href="https://www.instagram.com/hestudio.design/" target="_blank">
+                                <button class="bg-accent-secondary w-[70px] h-[70px] rounded-full hover:bg-accent/20">
+                                    <i class="pl-1 text-3xl ri-arrow-right-s-line text-primary"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- stats -->
+        <section class="stats mt-[80px] xl:mt-[150px] relative z-20 bg-accent-secondary py-[80px] xl:py-[150px]">
+            <div class="container mx-auto">
+                <!-- Grid -->
+                <div class="grid grid-cols-1 gap-12 xl:grid-cols-4">
+                    <!-- grid item -->
+                    <div class="text-center stats__item xl:border-r xl:border-accent">
+                        <h3 class="text-[64px] leading-tight text-accent font-Primary">3</h3>
+                        <p>Years Of Experience</p>
+                    </div>
+                    <!-- grid item -->
+                    <div class="text-center stats__item xl:border-r xl:border-accent">
+                        <h3 class="text-[64px] leading-tight text-accent font-Primary">12</h3>
+                        <p>Years Of Experience</p>
+                    </div>
+                    <!-- grid item -->
+                    <div class="text-center stats__item xl:border-r xl:border-accent">
+                        <h3 class="text-[64px] leading-tight text-accent font-Primary">12</h3>
+                        <p>Years Of Experience</p>
+                    </div>
+                    <!-- grid item -->
+                    <div class="text-center stats__item ">
+                        <h3 class="text-[64px] leading-tight text-accent font-Primary">12</h3>
+                        <p>Years Of Experience</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section class="container mt-[80px] xl:mt-[150px] relative z-20 mx-auto p-0">
+            <div class="container mx-auto contact__container bg-primary sm:rounded-[70px] py-[80px]">
+                <div class="contact__text max-w-[640px] mx-auto text-center">
+                    <h2 class="text-[50px] leading-tight text-white mb-4">Do you want join HeStudio ?</h2>
+                    <p class="max-w-sm mx-auto mb-8 text-white xl:max-w-none">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Libero, sint.</p>
+                </div>
+                <a href="https://www.instagram.com/hestudio.design/" target="_blank">
+                    <button class="mx-auto btn btn-accent">Connect with us <i
+                            class="ri-arrow-right-line text-primary"></i></button>
+                </a>
+
+            </div>
+        </section>
+        <!-- footer -->
+        <footer class="footer mt-[80px] xl:mt-[150px] relative z-20">
+            <div class="container px-0 mx-auto">
+                <div class="flex flex-col xl:flex-row xl:gap-[100px] xl:mb-[150px]">
+                    <div class="w-full footer__item max-w-[400px] mx-auto mb-8 text-center xl:text-left ">
+                        <!-- Logo -->
+                        <a href="" class="flex justify-center mb-6 xl:justify-start">
+                            <img src="/asset/img/logo2.svg" alt="" class="w-[120px]">
+                        </a>
+                        <p class="mb-8 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <!-- social -->
+                        <ul class="flex text-primary gap-[54px] justify-center xl:justify-start">
+                            <li>
+                                <a href="https://www.instagram.com/hestudio.design/" target="_blank"><i
+                                        class="ri-instagram-fill"></i></a>
+                            </li>
+                            <li>
+                                <a href="mailto:mahesapermanagt@gmail.com" target="_blank"><i
+                                        class="ri-mail-fill"></i></a>
+                            </li>
+                            <li>
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/085857325934" target="_blank"><i
+                                        class="ri-whatsapp-fill"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div
+                        class="flex flex-col flex-1 gap-12 text-center xl:flex-row xl:text-left xl:gap-[100px] xl:justify-end">
+                        <div class="footer__item">
+                            <h3 class="text-[25px] leading-tight mb-3">Pages</h3>
+                            <ul class="flex flex-col gap-4">
+                                <li><a href="">About</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">About</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__item">
+                            <h3 class="text-[25px] leading-tight mb-3">Pages</h3>
+                            <ul class="flex flex-col gap-4">
+                                <li><a href="">About</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">About</a></li>
+                                <li><a href="">About</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__item">
+                            <h3 class="text-[25px] leading-tight mb-3">Contact</h3>
+                            <div class="flex flex-col gap-6 text-[20px]">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, voluptas?</p>
+                                <p class="mb-5">mahesapermanagt@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Copy Right -->
+                <p class="py-6 text-base text-center bg-white border-t footer__copyright xl:text-lg ">Copyright &copy;
+                    HeStudio 2024. All rights reserved.</p>
+            </div>
+        </footer>
+
+
+    </main>
+
+
+
+
+    <!-- Hero Section Start -->
+
+    <!-- Hero Section End -->
+    <script src="js/scrollreveal.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+</body>
+
+</html>

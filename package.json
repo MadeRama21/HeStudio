@@ -1,0 +1,15 @@
+{
+  "name": "hestudio",
+  "version": "1.0.0",
+  "description": "Website HeStudio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "npx tailwind -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "author": "MadeRama",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.14"
+  }
+}
