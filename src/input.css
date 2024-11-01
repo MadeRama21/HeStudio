@@ -25,7 +25,7 @@
     @apply h-[60px] px-[20px] transition-all duration-300 text-white rounded-[18px] flex items-center gap-2;
   }
   .btn-primary {
-    @apply bg-primary hover:bg-primary-hover hover:scale-110;
+    @apply bg-primary hover:bg-primary-hover hover:scale-110 ;
   }
   .btn-accent {
     @apply bg-accent hover:bg-accent-hover;
