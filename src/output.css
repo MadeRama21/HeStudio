@@ -648,10 +648,6 @@ h1,
   background-color: rgb(184 140 93 / var(--tw-bg-opacity));
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -664,16 +660,8 @@ h1,
   inset: 0px;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
 .left-0 {
   left: 0px;
-}
-
-.right-0 {
-  right: 0px;
 }
 
 .right-3 {
@@ -1048,6 +1036,11 @@ h1,
   padding-right: 0px;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1071,11 +1064,6 @@ h1,
 .py-\[80px\] {
   padding-top: 80px;
   padding-bottom: 80px;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .pb-\[110px\] {
@@ -1126,6 +1114,10 @@ h1,
   line-height: 1;
 }
 
+.text-\[15px\] {
+  font-size: 15px;
+}
+
 .text-\[20px\] {
   font-size: 20px;
 }
@@ -1150,14 +1142,6 @@ h1,
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-\[10px\] {
-  font-size: 10px;
-}
-
-.text-\[15px\] {
-  font-size: 15px;
 }
 
 .font-bold {
@@ -1418,18 +1402,6 @@ h1,
   .xl\:border-accent {
     --tw-border-opacity: 1;
     border-color: rgb(205 162 116 / var(--tw-border-opacity));
-  }
-
-  .xl\:bg-\[url\(\'\/asset\/img\/grid\.png\'\)\] {
-    background-image: url('/asset/img/grid.png');
-  }
-
-  .xl\:bg-center {
-    background-position: center;
-  }
-
-  .xl\:bg-repeat-y {
-    background-repeat: repeat-y;
   }
 
   .xl\:px-0 {
