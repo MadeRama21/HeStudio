@@ -1035,6 +1035,10 @@ h1,
   background-attachment: fixed;
 }
 
+.bg-center {
+  background-position: center;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
