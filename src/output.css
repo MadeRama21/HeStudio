@@ -1246,6 +1246,16 @@ h1,
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:transition-all:hover {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.hover\:duration-500:hover {
+  transition-duration: 500ms;
+}
+
 @media (min-width: 640px) {
   .sm\:rounded-\[70px\] {
     border-radius: 70px;
