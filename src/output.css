@@ -794,18 +794,6 @@ h1,
   height: 100%;
 }
 
-.h-\[\] {
-  height: ;
-}
-
-.h-\[54\] {
-  height: 54;
-}
-
-.h-\[548px\] {
-  height: 548px;
-}
-
 .w-\[110px\] {
   width: 110px;
 }
@@ -832,10 +820,6 @@ h1,
 
 .w-full {
   width: 100%;
-}
-
-.w-\[548px\] {
-  width: 548px;
 }
 
 .max-w-3xl {
@@ -955,6 +939,10 @@ h1,
   overflow: hidden;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .scroll-smooth {
   scroll-behavior: smooth;
 }
@@ -973,6 +961,18 @@ h1,
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
+.rounded-\[\] {
+  border-radius: ;
+}
+
+.rounded-\[65px\] {
+  border-radius: 65px;
 }
 
 .rounded-bl-\[80px\] {
@@ -1021,10 +1021,6 @@ h1,
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\/asset\/img\/bg-utama\.svg\'\)\] {
-  background-image: url('/asset/img/bg-utama.svg');
 }
 
 .bg-\[url\(\'\/asset\/img\/bg-utama\.webp\'\)\] {
@@ -1253,14 +1249,6 @@ h1,
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.hover\:rounded-br-\[80px\]:hover {
-  border-bottom-right-radius: 80px;
-}
-
-.hover\:rounded-tl-\[80px\]:hover {
-  border-top-left-radius: 80px;
-}
-
 .hover\:bg-accent:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(205 162 116 / var(--tw-bg-opacity));
@@ -1460,21 +1448,5 @@ h1,
   .xl\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .xl\:hover\:rounded-br-none:hover {
-    border-bottom-right-radius: 0px;
-  }
-
-  .xl\:hover\:rounded-tl-none:hover {
-    border-top-left-radius: 0px;
-  }
-
-  .xl\:hover\:rounded-tl-\[80px\]:hover {
-    border-top-left-radius: 80px;
-  }
-
-  .xl\:hover\:rounded-tl-\[none\]:hover {
-    border-top-left-radius: none;
   }
 }
