@@ -738,10 +738,6 @@ h1,
   margin-bottom: 2.25rem;
 }
 
-.mt-14 {
-  margin-top: 3.5rem;
-}
-
 .mt-\[80px\] {
   margin-top: 80px;
 }
@@ -939,16 +935,16 @@ h1,
   overflow: hidden;
 }
 
-.overflow-x-hidden {
-  overflow-x: hidden;
-}
-
 .scroll-smooth {
   scroll-behavior: smooth;
 }
 
 .rounded-\[30px\] {
   border-radius: 30px;
+}
+
+.rounded-\[65px\] {
+  border-radius: 65px;
 }
 
 .rounded-\[70px\] {
@@ -961,18 +957,6 @@ h1,
 
 .rounded-lg {
   border-radius: 0.5rem;
-}
-
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
-.rounded-\[\] {
-  border-radius: ;
-}
-
-.rounded-\[65px\] {
-  border-radius: 65px;
 }
 
 .rounded-bl-\[80px\] {
