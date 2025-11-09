@@ -762,6 +762,10 @@ h1,
   display: none;
 }
 
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
+
 .h-\[340px\] {
   height: 340px;
 }
@@ -790,6 +794,18 @@ h1,
   height: 100%;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[54\] {
+  height: 54;
+}
+
+.h-\[548px\] {
+  height: 548px;
+}
+
 .w-\[110px\] {
   width: 110px;
 }
@@ -816,6 +832,10 @@ h1,
 
 .w-full {
   width: 100%;
+}
+
+.w-\[548px\] {
+  width: 548px;
 }
 
 .max-w-3xl {
@@ -1007,6 +1027,10 @@ h1,
   background-image: url('/asset/img/bg-utama.svg');
 }
 
+.bg-\[url\(\'\/asset\/img\/bg-utama\.webp\'\)\] {
+  background-image: url('/asset/img/bg-utama.webp');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1021,6 +1045,11 @@ h1,
 
 .bg-no-repeat {
   background-repeat: no-repeat;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-0 {
@@ -1439,5 +1468,13 @@ h1,
 
   .xl\:hover\:rounded-tl-none:hover {
     border-top-left-radius: 0px;
+  }
+
+  .xl\:hover\:rounded-tl-\[80px\]:hover {
+    border-top-left-radius: 80px;
+  }
+
+  .xl\:hover\:rounded-tl-\[none\]:hover {
+    border-top-left-radius: none;
   }
 }
